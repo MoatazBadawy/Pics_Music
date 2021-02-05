@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/song_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:src="@drawable/icon"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="14dp">
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            tools:text="Shape of you"/>
+
+        <TextView
+            android:id="@+id/singer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="Alan walker"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/Menu"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="2dp"
+        tools:src="@drawable/list"/>
+
+</LinearLayout>

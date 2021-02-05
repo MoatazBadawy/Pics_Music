@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VOoOV</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_play">Playing Now</string>
+    <string name="menu_library">Your Library</string>
+    <string name="menu_premium">Premium</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
